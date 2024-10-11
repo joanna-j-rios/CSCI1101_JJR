@@ -3,40 +3,72 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title>BASIC HTML TUTORIAL EXAMPLE</title>
+        <title>HTML About Me</title>
 
     </head>
-    <body>
+    <body style="background-color: #030511">
         <!--Main Heading-->
-        <h1>WELCOME TO YOUR HTML TUTORIAL</h1>
-        <h2>This is another example of a Header</h2>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <style>
+            
+            h1{
+                background-color: #057faf;
+                text-align: center;
+                color: #ffffff;
+                font-family: Pirata One, sans-serif;
+            }
+            h2,h3,h4,h5{
+                color: #4605af;
+                font-family: Pirata One, sans-serif;
+            }
+            p,li,tr,td{
+                color: #860850;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Tangerine, sans-serif;
+            }
+            ul,ol{
+                color: #860850;
+                font-family: Pirata One, sans-serif;
+            }
+            th,label{
+                color: #575D29;
+                font-family: Pirata One, sans-serif;
+            }
+
+        </style>
+        <h1>Joanna Rios</h1>
+        <h2>Hello, welcome to my page about me</h2>
         <!--This is a paragraph-->
-        <p>
-            hello<br>this</br>is a<br>poem</br>
+        <p style="background-color: #6F807C">
+            This will be a paragraph about me...
         </p>
         <!--Showing a Link-->        
         <p>Hey there! Please visit Leetcode!! <a href="https://leetcode.com/" target="_blank"> Make sure to code! </a></p>
         <!--Display Image-->
-        <h3>This is an example of an image</h3>       
+        <h3>This will be an image I like</h3>       
         <img src="throwing.jpg" alt="meme">
         <!--Lists-->
-        <h3>THESE ARE THE LISTS WE WILL BE WORKING ON</h3>
-        <h4>Unordered List Example</h4>
+        <!--<div style="background-color: #065e81">-->
+        <h3 >Points about me</h3>
+        <h4>I'm a...</h4>
         <u1>
             <li>Marvel</li>
             <li>Frank Ocean</li>
             <li>Food</li>
             <li>Dog</li>
         </ul>
-        <h4>Ordered List Example</h4>
+        <h4>I love...</h4>
         <ol>
             <li>Marvel</li>
             <li>C++</li>
             <li>Laptop</li>
             <li>Java</li>
         </ol>
+        <!--</div>-->
         <!--Tables-->
-        <h2>Ecample of a Table</h2>
+        <h2>Table</h2>
         <table border="1">
             <tr>
                 <th>Header 1</th>
@@ -87,7 +119,7 @@
             </select><br></br> 
             
             <!--Message Box-->
-            <h10>THIS IS AN EXAMPLE OF A MESSAGE BOX</h10><br><br>
+            <h5>THIS IS AN EXAMPLE OF A MESSAGE BOX</h5><br><br>
             <label for="message">Message</label><br>
             <textarea id=" message" name="message" row="10" cols="60"></textarea><br><br>
 
