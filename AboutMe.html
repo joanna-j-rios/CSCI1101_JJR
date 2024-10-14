@@ -6,24 +6,23 @@
         <title>HTML About Me</title>
 
     </head>
-    <body style="background-color: #030511">
+    <body style="background-color: #e8ebd8";">
         <!--Main Heading-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <style>
             
             h1{
-                background-color: #057faf;
                 text-align: center;
                 color: #ffffff;
                 font-family: Pirata One, sans-serif;
             }
             h2,h3,h4,h5{
-                color: #4605af;
+                color: #025006;
                 font-family: Pirata One, sans-serif;
             }
             p,li,tr,td{
-                color: #860850;
+                color: #3a0303;
                 font-size: 30px;
                 font-weight: bold;
                 font-family: Tangerine, sans-serif;
@@ -33,99 +32,81 @@
                 font-family: Pirata One, sans-serif;
             }
             th,label{
-                color: #575D29;
+                color:#0a3501;
                 font-family: Pirata One, sans-serif;
             }
 
         </style>
-        <h1>Joanna Rios</h1>
-        <h2>Hello, welcome to my page about me</h2>
+        <h1 style="background-color: #0a3501">Joanna Rios</h1>
+        <h2 style="background-color: #a4ab9c" >Hello, welcome to my page about me</h2>
+
         <!--This is a paragraph-->
-        <p style="background-color: #6F807C">
-            This will be a paragraph about me...
+        <p style="background-color: #6f807c">
+            Hey there! I'm Joanna Rios. <br> This page is gonna be an all about me. <br>
+            I'll talk about music, aesthetics, things I love, etc. <br>
+            If I had to describe myself in three words, they'd be dreamer, introvert, determined.
+
         </p>
+
         <!--Showing a Link-->        
-        <p>Hey there! Please visit Leetcode!! <a href="https://leetcode.com/" target="_blank"> Make sure to code! </a></p>
+        <p style="background-color: #c8c3b9;">Check this out! This is a spotify playlist with some of my favorites!! <a href="https://testing-open.spotify.com/playlist/3QNtBJM7u3OXLjZdhTSIMj"  style="color: #0a3501; target="_blank"> Give this a listen! </a></p>
+        
         <!--Display Image-->
-        <h3>This will be an image I like</h3>       
-        <img src="throwing.jpg" alt="meme">
+        <div id="div1" style="background-color: #82977e">
+        <h3>Some images that embody my favorite aesthetic :</h3>  
+        <img src="fairies.png" alt="fairies" width="460" height ="400">
+        <img src="background.jpg" alt="background" width="460" height ="400"> <br>
+
+        </p>
+        </div>
+        
         <!--Lists-->
-        <!--<div style="background-color: #065e81">-->
-        <h3 >Points about me</h3>
-        <h4>I'm a...</h4>
+        <div style="background-color: #82977e">
+        <h3 style="background-color: #c8c3b9" >Things about me...</h3>
+        <h4>I love: </h4>
         <u1>
-            <li>Marvel</li>
-            <li>Frank Ocean</li>
-            <li>Food</li>
-            <li>Dog</li>
+            <li>🌱Plants 🌻</li>
+            <li>🌮Food 🍕</li>
+            <li>🎧Music 🎤</li>
+            <li>🌈Art 🖌️</li>
+            <li>🎬Movies/TV 📺</li>
         </ul>
-        <h4>I love...</h4>
+        <h4>My Favorite things are: </h4>
         <ol>
-            <li>Marvel</li>
-            <li>C++</li>
-            <li>Laptop</li>
-            <li>Java</li>
+            <li>My Fur Babies</li>
+            <li>Being with friends and family</li>
         </ol>
-        <!--</div>-->
+        </div>
+        
         <!--Tables-->
-        <h2>Table</h2>
+        <div style="background-color: #82977e">
+        <h2 style="background-color: #c8c3b9">My Main Reasons for Existing</h2>
         <table border="1">
             <tr>
-                <th>Header 1</th>
-                <th>Header 2</th>
-                <th>Header 3</th>
+                <th>My Yorkie</th>
+                <th>My Chihuahua</th>
+                <th>My Cat</th>
             </tr>
             <tr>
-                <td>Row 1, Cell 1</td>
-                <td>Row 1, Cell 2</td>
-                <td>Row 1, Cell 3</td>
+                <td>I've had him for over half of my life.<br>He's 12 years old, but he'll always be my baby.<br></td>
+                <td>She's my little gremlin.<br>She's the sweetest unless you're tying to take her food...<br> which I can totally relate to.</td>
+                <td>She's the newest addition.<br> She found me in the midst of freaking out about finally coming back to school.<br> She's my peace and stress.</td>
             </tr>
             <tr>
-                <td>Row 2, Cell 1</td>
-                <td>Row 2, Cell 2</td>
-                <td>Row 2, Cell 3</td>                
+                <td><img src="peewee.jpg" alt="peewee" width="300" height ="300"></td>
+                <td><img src="minnie.jpg" alt="minnie" width="300" height ="300"></td>
+                <td><img src="cloe.jpg" alt="cloe" width="300" height ="300"></td>                
             </tr>
         </table>
-        <!--Forms-->
-        <h2>This is how you do forms on HTML</h2>
-        <form action="" method="">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name"></input><br>
+        <p> 
+            Had to share some picture of them because who doesn't love seeing pet pictures.<br>
+            Talking about them is basically talking about myself because they're my everything<br>
+            I love them so much. They make me the happiest...and sometimes the maddest lol.
 
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="eamil"></input><br>
+        </p>
 
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password"></input><br>
-            
-            <!--Buttons-->
+        </div>
 
-            <label for="gender">Gender</label><br>
-
-            <input type="radio" id="male" name="gender" value="male"></input>
-            <label for="male">Male</label><br>
-
-            <input type="radio" id="female" name="gender" value="female"></input>
-            <label for="female">Female</label><br>
-
-            <!--Drop Down-->
-            <label for="country">Country</label><br>
-            <select id="country" name="country"><br>
-                <option value="no">Select</option>
-                <option value="us">United States of America</option>
-                <option value="mx">Mexico</option>
-                <option value="jap">Japan</option>
-                <option value="can">Canada</option>                
-            </select><br></br> 
-            
-            <!--Message Box-->
-            <h5>THIS IS AN EXAMPLE OF A MESSAGE BOX</h5><br><br>
-            <label for="message">Message</label><br>
-            <textarea id=" message" name="message" row="10" cols="60"></textarea><br><br>
-
-            <input type="submit" value="submit"></input>
-
-        </form>
 
     </body>
 </html>
